@@ -27,7 +27,7 @@
 <script>
     export default {
         name: "popup",
-        props: ['id', 'title', 'letter',],
+        props: ['id', 'title', 'letter', 'newCardText'],
         data() {
             return {}
         },
