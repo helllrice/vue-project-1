@@ -57,6 +57,7 @@
                 infoPopupVisible: false
             }
         },
+        props: ['newCardText'],
         methods: {
             showPopup() {
                 this.infoPopupVisible = true;
