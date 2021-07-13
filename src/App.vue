@@ -49,7 +49,7 @@
   
   export default {
     name: 'app',
-    props: {},
+    props: ['showPopupInfo'],
     data() {
     return {
       newCardText: '',
