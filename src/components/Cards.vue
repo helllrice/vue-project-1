@@ -3,7 +3,7 @@
     <ul>
       <CardsItem 
         v-bind:card="card"
-        v-for="card in cards" :key="card"
+        v-for="card in cards" :key="card.title"
       />
     </ul>
   </div>
@@ -13,7 +13,7 @@
   import CardsItem from '@/components/CardsItem'
   
   export default {
-    props: ['cards'],
+    props: ['cards', 'title'],
     components: {
       CardsItem
     }

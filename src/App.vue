@@ -49,7 +49,7 @@
   
   export default {
     name: 'app',
-    props: [],
+    props: {},
     data() {
     return {
       newCardText: '',
